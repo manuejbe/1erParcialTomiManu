@@ -462,7 +462,8 @@ def finalizarPrograma():
     for c in clubes:
         c.guardarClub()
     guardarListaClubes()
-    return True
+    quit()
+
 
 def registrarClub():
     nombre=verificarInputClub("Ingrese el nombre del club: ", "Ingrese un nombre de club valido: ")
